@@ -27,6 +27,10 @@ Depends: ${misc:Depends},
          qttools5-dev-tools
 Recommends: git,
             lintian
+Provides: 
+ lxqt-build-tools
+Replaces:
+ lxqt-build-tools
 Description: Build tools for the LXQt desktop environment
  LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
  technologies. It has been tailored for users who value simplicity, speed, and
